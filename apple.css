@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+li {
+color: black;
+list-style : none;
+display: flex;
+flex-position: column;
+position: relative;
+}
+
+.subnav-content li {
+    font-weight: bold;
+    color: #222121;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color:#222121;  /* rgb(5, 0, 0);*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(10, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: rgb(254, 253, 253);
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:  white;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: rgb(11, 0, 0);
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+} 
+
+#logo {
+position: relative;
+left: 20px;
+bottom: 5px;
+}
+
+.subnavbtn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 10px;
+    font-weight: thin;
+}
+
+
+
+/* --------------------------Body CSS ---------------------------*/
+
+
+h1,p{
+    text-align: center;
+    color: #222121;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.font {
+    font-size: 30px;
+}
+
+/* .a {
+    display: flex;
+    align-content: center;
+    margin-right: 20px;
+    text-decoration: none;
+} */
+
+pre p {
+    text-align: center;
+    font-weight: thin;
+    font-size: 23px;
+    position: relative;
+    bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.heading a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.poster {
+  display: flex;
+}
+
+.image5 {
+  position: relative;
+  left: 140px;
+}
+
+.poster2 {
+  display: flex;
+}
+
+.poster3 {
+  display: flex;
+}
+
+/*====================Footer CSS===========================*/
+
+.foot {
+  background-color: whitesmoke;
+}
+
+.foot-text {
+  color: grey;
+  font-size: 14px;
+}
+
+.foot2 {
+  background-color: whitesmoke;
+}
+
+.foot-text2 {
+  color: grey;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.foot3 {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.foot-text4 {
+  text-align: center;
+  position: relative;
+  left: 160px;
+  font-size: 15px;
+}
+
+.foot-text3{
+  position: relative;
+  left: 70px;
+}
